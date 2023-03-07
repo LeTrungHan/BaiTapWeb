@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Trung Han</title>
+    <style>
+        ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 20px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+*{
+ box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.container {
+  position: relative;
+  /* max-width: 800px; */
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width:1000px;
+  /* padding: 20px; */
+}
+    </style>
+    </head>
+<body>
+    <div>
+        <ul class="breadcrumb">
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">Our story</a></li>
+            <li><a href="#">Blog</a></li>
+            <div style="text-align: center; padding: auto;">
+              <img src="logo.png">
+            </div>
+            <div style="text-align: right; padding-bottom: 20px;">
+              <from>
+                <input type="text" placeholder="&#9740; Search product...  ">
+                </from>
+                <img src="Button 1 (1).png">
+                <img src="Button 1.png">
+            </div>
+        </ul>
+    </div>
+    <div class="container">
+      <img src="banner.png"  style="width: 610px;;">
+      <div class="content">
+        <h1>Gift for your skin</h1>
+        <p>Aliquip fugiat ipsum nostrud ex et eu incididunt quis minim dolore excepteru voluptae</p>
+      </div>
+    </div>
+</body>
+</html>
